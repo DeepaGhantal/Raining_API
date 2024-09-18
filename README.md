@@ -41,6 +41,7 @@ parameters = {
     "appid": api_key,
     "cnt": 4,
 }
+
 2.Run the script:
 python rain_alert.py
 
