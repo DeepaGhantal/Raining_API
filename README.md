@@ -20,8 +20,6 @@ This project utilizes the [OpenWeatherMap API](https://openweathermap.org/) to f
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
    git clone https://github.com/your-username/raining-api.git
 
 2.Install the required dependencies:
@@ -33,7 +31,7 @@ OWM_API_KEY: Your OpenWeatherMap API key.
 AUTH_TOKEN: Your Twilio Auth Token.
 Alternatively, you can directly add them to the script (not recommended for production).
 
-Usage
+# Usage
 1.Modify the coordinates in the parameters section to set your desired location:
 parameters = {
     "lat": YOUR_LATITUDE,
@@ -47,10 +45,10 @@ python rain_alert.py
 
 3.If rain is forecasted, you will receive an SMS notification on the specified number.
 
-Example
+# Example
 It's going to rain today. Remember to bring an umbrella.
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
