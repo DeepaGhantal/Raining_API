@@ -28,16 +28,24 @@ pip install -r requirements.txt
 3.Set up your environment variables for OpenWeatherMap API and Twilio:
 
 OWM_API_KEY: Your OpenWeatherMap API key.
+
 AUTH_TOKEN: Your Twilio Auth Token.
+
 Alternatively, you can directly add them to the script (not recommended for production).
 
 # Usage
 1.Modify the coordinates in the parameters section to set your desired location:
+
 parameters = {
+
     "lat": YOUR_LATITUDE,
+    
     "lon": YOUR_LONGITUDE,
+    
     "appid": api_key,
+    
     "cnt": 4,
+    
 }
 
 2.Run the script:
@@ -51,8 +59,10 @@ It's going to rain today. Remember to bring an umbrella.
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
 Acknowledgments
 OpenWeatherMap API
 Twilio
+
 
 Feel free to modify the text as per your project specifics! Let me know if you need further customization.
